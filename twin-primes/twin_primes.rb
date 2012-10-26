@@ -21,4 +21,6 @@ def twin_prime(limit)
 end
 
 # Call to test the method
-twin_prime(61)
+print "Please enter the limit for the range of Prime numbers: "
+limit = gets.chomp
+twin_prime(limit.to_i)
