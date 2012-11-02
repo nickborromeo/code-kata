@@ -5,3 +5,11 @@ Write a method that would find all positive integers that do not have 0 in their
 
 Output what each of the numbers are
 
+---
+
+# Counting Ones
+---
+
+Given an array of numbers, return the occurrences of the number 1 in the array. So, if the array contains 1, 2, 11, 13 you would return 4 (as 11 contains two instances of 1).  
+
+NOTE: run count_number.rb
