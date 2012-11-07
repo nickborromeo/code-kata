@@ -24,3 +24,11 @@ The first two numbers in the sequence are 0 and 1, and each subsequent number is
 What you have to do is provide a function that takes a parameter n that returns the Fibonacci number at the nth position.
 
 NOTE: run fibonacci.rb
+
+---
+
+# Return the Factorial
+
+A function which will return the factorial of a number n. Factorial is the product of the sequence  n, n-1, n-2 .... 1.  And remember that the factorial of 0 is actually 1. 
+
+
