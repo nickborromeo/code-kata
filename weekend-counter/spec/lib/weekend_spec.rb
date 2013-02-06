@@ -7,8 +7,8 @@ describe WeekendCalculator do
 	let(:weekend) { WeekendCalculator.new(start_date, end_date) }
 	describe "#count_weekends" do 
 		it "returns 0 for invalid date range" do
-     wk = WeekendCalculator.new(end_date, start_date)
-		 wk.count_weekends.should eq(0)
+      wk = WeekendCalculator.new(end_date, start_date)
+		  wk.count_weekends.should eq(0)
 		end
 		it "returns correct number of weekends" do
 			weekend.count_weekends.should eq(9)
