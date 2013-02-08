@@ -15,9 +15,9 @@ describe DuplicateDetector do
       expect(dup_array.detect_duplicates).to satisfy { |v| v >= 1 && v <= max }
     end
     it "returns correct duplicate" do 
-      stub_arr = DuplicateDetector.stub(:new).and_return([1,333,333,4,5,7,1000])
-      expect(stub_arr.detect_duplicates).to eq(333)
-      #TODO: Fix example to test method correctly
+			duplicate_detector = DuplicateDetector.new
+			duplicate_detector.instance_variable_set(:@num_arr, [1,3,3,6,7])
+			duplicate_detector.detect_duplicates.should eq(3)
     end
   end
 end
