@@ -15,5 +15,6 @@ describe Delimeter do
     it { delimeter.valid_pairs?(")").should be_false }
     it { delimeter.valid_pairs?("()[").should be_false }
     it { delimeter.valid_pairs?("{[()}]").should be_false }
+    it { delimeter.valid_pairs?("()]").should be_false }
   end
 end
