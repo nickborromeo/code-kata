@@ -25,5 +25,7 @@ describe SquareRoot do
 
   describe "#sqrt" do
     it { @test.sqrt(number).should be_a(Float)}
+    it { @test.sqrt(81).should eq(9.0) }
+    it { @test.sqrt(7).should be_a(Float)}
   end
 end
