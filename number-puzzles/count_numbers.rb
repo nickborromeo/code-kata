@@ -5,11 +5,3 @@ def number_count(target, num_array)
   end
   occurences
 end
-
-array = [1,2,11,13]
-
-print "Please enter the number which you want to count the occurences of: "
-num  = gets.chomp
-
-occurences = number_count(num, array)
-puts  "The number of occurences for #{num} in the array is #{occurences} "
